@@ -11,7 +11,7 @@ export default function HomePage() {
     <main>
       <section className="page-shell grid gap-12 py-12 sm:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-20">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.22em] text-cobalt">Maple Grove Ward · Meeting planner</p>
+          <p className="text-xs font-bold uppercase tracking-[0.22em] text-cobalt">Mutungo Ward · Meeting planner</p>
           <h1 className="mt-5 max-w-2xl text-5xl font-extrabold leading-[0.98] tracking-[-0.055em] text-ink sm:text-7xl">Plan the order. <span className="text-cobalt">Make room for people.</span></h1>
           <p className="mt-7 max-w-xl text-lg leading-8 text-slate-600">A clear, shared place to prepare Sunday programs, review the details, and print the plan when it is ready.</p>
           <div className="mt-9 flex flex-wrap items-center gap-3">

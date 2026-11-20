@@ -7,7 +7,8 @@ export default function CurrentDate() {
   const [date, setDate] = useState<string | null>(null);
 
   useEffect(() => {
-    setDate(new Date().toISOString().slice(0, 10));
+    const timeoutId = window.setTimeout(() => setDate(new Date().toISOString().slice(0, 10)), 0);
+    return () => window.clearTimeout(timeoutId);
   }, []);
 
   return <span>{date ? formatMeetingDate(date, { month: 'short', day: 'numeric', year: 'numeric' }) : 'Today'}</span>;

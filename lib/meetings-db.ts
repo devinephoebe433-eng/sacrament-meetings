@@ -14,7 +14,7 @@ const meetings: SacramentMeeting[] = [
     stakeBusiness: false,
     sacramentHymn: { number: 169, title: 'As Now We Take the Sacrament' },
     speakers: [
-      { name: 'Members of the Maple Grove Ward', topic: 'Testimonies', type: 'speaker' },
+      { name: 'Members of the Mutungo Ward', topic: 'Testimonies', type: 'speaker' },
     ],
     closingHymn: { number: 227, title: 'There Is Sunshine in My Soul Today' },
     closingPrayer: 'Sister Ruth Park',
@@ -33,7 +33,7 @@ const meetings: SacramentMeeting[] = [
     sacramentHymn: { number: 175, title: 'O God, the Eternal Father' },
     speakers: [
       { name: 'Elder Mason Reed', topic: 'Finding peace in Christ', type: 'speaker' },
-      { name: 'Maple Grove Young Women', topic: 'Come unto Christ', type: 'musical-number' },
+      { name: 'Mutungo Young Women', topic: 'Come unto Christ', type: 'musical-number' },
       { name: 'Sister Hannah Brooks', topic: 'Ministering with intention', type: 'speaker' },
     ],
     closingHymn: { number: 223, title: 'Have I Done Any Good?' },
@@ -91,7 +91,7 @@ const meetings: SacramentMeeting[] = [
     sacramentHymn: { number: 173, title: 'While of These Emblems We Partake' },
     speakers: [
       { name: 'Sister Naomi Carter', topic: 'Making room for gratitude', type: 'speaker' },
-      { name: 'Maple Grove Ward Choir', topic: 'Come, Ye Thankful People', type: 'musical-number' },
+      { name: 'Mutungo Ward Choir', topic: 'Come, Ye Thankful People', type: 'musical-number' },
       { name: 'Brother Thomas Lee', topic: 'Small acts, lasting faith', type: 'speaker' },
     ],
     closingHymn: { number: 219, title: 'Because I Have Been Given Much' },

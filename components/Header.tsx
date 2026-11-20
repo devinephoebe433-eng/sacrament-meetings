@@ -11,7 +11,7 @@ export default function Header() {
             <Image src="/meeting-mark.svg" alt="" width={26} height={20} className="brightness-0 invert" />
           </span>
           <span>
-            <span className="block text-[11px] font-bold uppercase tracking-[0.22em] text-cobalt">Maple Grove Ward</span>
+            <span className="block text-[11px] font-bold uppercase tracking-[0.22em] text-cobalt">Mutungo Ward</span>
             <span className="block text-lg font-bold tracking-tight text-ink">Sunday Order</span>
           </span>
         </Link>

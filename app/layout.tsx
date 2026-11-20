@@ -7,8 +7,8 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ['latin'], variable: '--font-dm-sans' });
 
 export const metadata: Metadata = {
-  title: { default: 'Sunday Order · Maple Grove Ward', template: '%s · Sunday Order' },
-  description: 'A clear, printable sacrament meeting planner for Maple Grove Ward.',
+  title: { default: 'Sunday Order · Mutungo Ward', template: '%s · Sunday Order' },
+  description: 'A clear, printable sacrament meeting planner for Mutungo Ward.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
