@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+:root {
+  --paper: #f7f9fc;
+  --ink: #10233d;
+  --cobalt: #2457d6;
+  --blue-pale: #eff6ff;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-cobalt: var(--cobalt);
+  --color-blue-pale: var(--blue-pale);
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-height: 100vh; font-family: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+.page-shell { width: min(100% - 2rem, 1180px); margin-inline: auto; }
+.agenda-section { display: flex; gap: 1rem; }
+.agenda-index { display: flex; height: 2rem; width: 2rem; flex: 0 0 2rem; align-items: center; justify-content: center; border-radius: 9999px; background: var(--blue-pale); color: var(--cobalt); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.03em; }
+
+@media (min-width: 640px) {
+  .page-shell { width: min(100% - 4rem, 1180px); }
+}
+
+@media print {
+  @page { margin: 0.55in; }
+  body { background: white !important; color: #111827 !important; }
+  .print-program { width: 100%; }
+  .print-program h1 { font-size: 2rem !important; }
+  .print-program .border-b { border-color: #d1d5db !important; }
+  .print-program .bg-white { box-shadow: none !important; border-color: #d1d5db !important; }
+  .print-program .agenda-section { break-inside: avoid; }
+  .print-program .agenda-index { background: #f3f4f6 !important; color: #1d4ed8 !important; }
+}

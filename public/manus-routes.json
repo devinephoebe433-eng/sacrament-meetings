@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "path": "/", "title": "Sunday Order" },
+    { "path": "/meetings", "title": "All meetings" },
+    { "path": "/meetings/current", "title": "Current Sunday" },
+    { "path": "/meetings/:id", "title": "Meeting program" }
+  ]
+}
